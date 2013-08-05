@@ -1,0 +1,73 @@
+/*Personalized Styling for IEEE Academic website*/
+
+/* Adapting Bootstrap fluid to FullScreen */
+.row-fluid{
+	text-align: center;
+}
+
+.container-fluid{
+	padding: 0px;
+}
+
+/*------------------------*/
+/* IEEE ACADEMIC HERO UNIT */
+.hero-unit{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	padding-top: 20px;
+}
+
+.hero-unit h1, p{
+	color: white;
+}
+
+.lead{
+	margin-top: 20px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	border-top: 2px;
+
+}
+
+#globalHeader{
+	background-image: url('../img/backgrounds/global.jpg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#menuLogo{
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+#navigationMenu{
+	float: right;
+	margin-top: 20px;
+}
+
+/* Text Hightlights */
+#UniversityCount, #CountryCount, #VideoModulesCount, #LanguagesCount{
+	color: yellow;
+}
+
+/* Search Bar */
+#searchText{
+	font-size: 18px;
+	height: 30px;
+	margin-left: 30px;	
+}
+
+/*Yellow Line hack*/
+hr 
+{	
+border:none;	
+border-top:1px yellow solid;
+height: 1px;
+}
+
+/*------------------------*/
+/* Other Stuff*/
