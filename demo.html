@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery/Bootstrap List Tree Plugin Demo</title>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css" type="text/css">
+  <link rel="stylesheet" href="js/listTree.css" type="text/css">
+</head>
+<body>
+
+<div id="content">
+    <div class="listTree"></div>
+    <button class="btn btn-success">Check All</button>
+    <button class="btn btn-danger">Un-Check All</button>
+    <button class="btn btn-info">Expand All</button>
+    <button class="btn btn-warning">Collapse All</button>
+    <button class="btn btn-inverse">Change Data</button>
+
+    <br /><br />
+    
+    <h4>Selection JSON:</h4>
+    <pre id="selectionJson"></pre>
+    <button class="btn btn-primary">Get JSON for selected nodes</button>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/listTree.js"></script>
+<script type="text/javascript">
+
+$("div").on("hide", function() {
+    $(this).prev("div").find("i").attr("class","icon-plus-sign");
+    $(this).css("display","");
+    $(this).css("height","5px");
+});
+$("div").on("show", function() {
+    $(this).prev("div").find("i").attr("class","icon-minus-sign");
+    $(this).css("display","inline");
+    $(this).css("height","5px");
+});
+
+</script>
+
+</body>
+</html>

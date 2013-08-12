@@ -1,104 +1,171 @@
 <!DOCTYPE html>
 <html>
- <head>
-    <meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 	<title>With Bootstrap</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/academic.css"> <!-- Personalized Styling -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-   	 <script>
-   	 $(document).ready(function(){
-   	 		 $(".test .span4").width(400);
-   	 })
-    </script>
- </head>
-   
- <body>
 
- 	<div class="container">
-	 		<div class="hero-unit">
-	 		 <div class="row-fluid test"> 
-				<div class="span4"><img src="img/logo.png" class="img-polaroid" width="150"></div>
-				<div class="span4 test">
+</head>
+
+<body>
+
+	<!-- IEEE sites -->
+	<div class="container-fluid IEEEsites">
+		<div class="row">
+			<div class="col-12" style="margin-left: 10px"><a href="http://ieee.org">IEEE.org</a> &nbsp |   &nbsp <a href="http://ieeexplore.ieee.org/Xplore/home.jsp">IEEE Xplore Digital</a>  &nbsp  | &nbsp    <a href="http://standards.ieee.org/">IEEE Standards</a> &nbsp | &nbsp <a href="http://spectrum.ieee.org/">IEEE Spectrum</a>  &nbsp | &nbsp   <a href="http://www.ieee.org/sitemap.html">More sites</a></div>
+
+
+		</div>
+	</div>
+
+	<div class="container-fluid">
+
+		<!-- HERO UNIT - GLOBAL WEBSITE  -->
+
+		<div id="globalHeader" class="jumbotron jumboContent">
+			<div id="menuLogo" class="row"> 
+				<div class="col-4"><a href="index.html"><img src="img/logos/global.png" width="300"></a></div>
+				<div id="navigationMenu" class="col-4">
 					<ul class="nav nav-tabs">
-	    				<li><a href="initiatives.html">Initiatives</a></li>
-					    <li><a href="contents.html">Contents</a></li>
-					    <li><a href="#">About</a></li>
-				    </ul>
+						<li><a href="initiatives.html">Initiatives</a></li>
+						<li><a href="contents.html">Contents</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
 				</div>
 			</div>
-	         <h1>A GLOBAL PROJECT MADE OUT OF AMBITIOUS LOCAL INITIATIVES.</h1>
-	         <h5>Click on each country to know more about its IEEE Academic local initiative.</h5>
-	         <div class="row-fluid">
-	         	<div class="span4">
-			         <ul class="nav">
-			         	<li>1</li>
-			         	<li>2</li>
-			         	<li>3</li>
-			         	<li>4</li>
-			         	<li>5</li>
-			         	<li>6</li>
-			         	<li>7</li>
-			         </ul>
-			     </div>
-			     <div class="span4">
-			     	<ul class="nav">
-			         	<li>8</li>
-			         	<li>9</li>
-			         	<li>10</li>
-			         	<li>11</li>
-			         </ul>
-			     </div>
-			     <div class="span4"><img src="img/218056_4121569675462_1469843502_n.jpg" class="img-polaroid" width="200" style="height : 150px"></div>
-	     	</div>
-	     </div>
-	     	<div class="row-fluid">
-	     		<div class="span6"><img src="img/218056_4121569675462_1469843502_n.jpg" class="img-polaroid" width="300" style="height : 100px"></div>
-	     		<div class="span6">
-	     			<h4>IEEE Academic Portugal</h4>
-	     			<ul style="list-style-type: none;">
-	     				<li>250 videos</li>
-	     				<li>80 topics of 4 Academic Areas</li>
-	     			</ul>	
+			<h2>A GLOBAL PROJECT MADE OUT OF AMBITIOUS LOCAL INITIATIVES.</h2>
+			<hr color="yellow" width="60%">
+			<p style="margin-top:5%">Click on each country to know more about its IEEE Academic local initiative.</p>
+		</div>
 
-	     		</div>
-	     	</div>
-	     	<br>
-	     	<div class="row-fluid">
-	     		<div class="span6"><img src="img/218056_4121569675462_1469843502_n.jpg" class="img-polaroid" width="300" style="height : 200px"></div>
-	     		<div class="span6">
-	     			<div class="span3"><h5>Word cloud:</h5></div>
-	     			
-	     			<div class="span4 offset2"><img src="img/218056_4121569675462_1469843502_n.jpg" class="img-polaroid" width=""></div>
-	     			<div class="span9 offset2 well" style="width:35%"><a href="">GO TO WEBSITE</a></div>
-	     		</div>
 
-	     	</div>
-	     	<br>
-	     	<div class="row-fluid">
-			    <div class="span12">
-			    <center>Universities</center>
-				    <div class="row-fluid">
-					    <div class="span4 "><img src="img/218056_4121569675462_1469843502_n.jpg" class="img-polaroid" width="250" style="height : 200px"></div>
-					    <div class="span4"><img src="img/218056_4121569675462_1469843502_n.jpg" class="img-polaroid" width="250" style="height : 200px"></div>
-					    <div class="span4"><img src="img/218056_4121569675462_1469843502_n.jpg" class="img-polaroid" width="250" style="height : 200px"></div>
-				    </div>
-			    </div>
-		    </div>
-		    <br>
-		    <div class="row-fluid">
-			    <div class="span12">
-			    <center>Local teams</center>
-				    <div class="row-fluid">
-					    <div class="span4 "><img src="img/218056_4121569675462_1469843502_n.jpg" class="img-polaroid" width="250" style="height : 200px"></div>
-					    <div class="span4"><img src="img/218056_4121569675462_1469843502_n.jpg" class="img-polaroid" width="250" style="height : 200px"></div>
-					    <div class="span4"><img src="img/218056_4121569675462_1469843502_n.jpg" class="img-polaroid" width="250" style="height : 200px"></div>
-				    </div>
-			    </div>
-		    </div>
-		    <br>
-		    <footer><center>This is a footer for special B$"#$ :p</center></footer>
-		    <script src="js/bootstrap.min.js"></script>
 	</div>
+
+</div>
+
+
+<!-- END OF JUMBOTRON - CONTENTS PAGE  -->
+
+
+<!-- INITIATIVES PAGE CONTENT  -->
+
+<div class="container">
+
+	<div class="row">
+
+		<div class="col-4">
+			<h3>Initiatives</h3>
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active disabled"><a href="#austria" data-toggle="tab"><h4>Austria</h4></a></li>
+				<li class="disabled"><a href="#croatia" data-toggle="tab"><h4>Croatia</h4></a></li>
+				<li class="disabled"><a href="#italy" data-toggle="tab"><h4>Italy</h4></a></li>
+				<li class="disabled"><a href="#netherlands" data-toggle="tab"><h4>Netherlands</h4></a></li>
+				<li><a href="#hellenic" data-toggle="tab"><h4>Hellenic (Greece and Cyprus)</h4></a></li>
+				<li><a href="#pakistan" data-toggle="tab"><h4>Pakistan</h4></a></li>
+				<li class="disabled"><a href="#poland" data-toggle="tab"><h4>Poland</h4></a></li>
+				<li><a href="#portugal" data-toggle="tab"><h4>Portugal</h4></a></li>
+				<li><a href="#southafrica" data-toggle="tab"><h4>South Africa</h4></a></li>
+				<li><a href="#turkey" data-toggle="tab"><h4>Turkey</h4></a></li>
+				<li><a href="#usaphili" data-toggle="tab"><h4>USA (Drexel University)</h4></a></li>
+
+			</ul>			
+
+		</div>
+
+		<div class="col-8">
+
+
+			<div class="tab-content">
+				<div class="tab-pane active row" id="austria">
+					<h1>Soon</h1>
+				</div>
+			
+				<div class="tab-pane" id="croatia">
+					<h1>Soon</h1>
+				</div>
+			
+				<div class="tab-pane" id="italy">
+					<h1>Soon</h1>
+				</div>
+		
+				<div class="tab-pane" id="netherlands">
+					<h1>Soon</h1>
+				</div>
+			
+				<div class="tab-pane" id="hellenic">
+					<h1>CHANGE THIS HL</h1>
+				</div>
+		
+				<div class="tab-pane" id="pakistan">
+					<h1>CHANGE THIS</h1>
+				</div>
+
+				<div class="tab-pane" id="poland">
+					<h1>CHANGE THIS PL</h1>
+				</div>
+			
+				<div class="tab-pane" id="portugal">
+					<div class="col-8">
+					Portugal stuff
+					</div>
+				</div>
+		
+				<div class="tab-pane" id="southafrica">
+					<h1>CHANGE THIS ZA</h1>
+				</div>
+			
+				<div class="tab-pane" id="turkey">
+					<h1>CHANGE THIS TURKEY</h1>
+				</div>
+		
+				<div class="tab-pane" id="usaphili">
+					<h1>CHANGE THIS USA</h1>
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+	</div>
+
+</div>
+
+
+
+</div> <!-- container body -->
+
+
+
+<!-- Footer -->
+<div class="container-fluid footer">
+
+	<div class="row">
+
+		<div class="col-4" >
+			<h2>Relevant Links</h2>
+			<p class="footerlink"><a href="#">IEEE</a></p>
+			<p class="footerlink"><a href="#">Education</a></p>
+			<p class="footerlink"><a href="#">Some partner</a></p>
+
+		</div>
+		<div class="col-4"><h2>Social Media</h2></div>
+		<div class="col-4"><h2>Press</h2></div>
+
+	</div>
+
+</div>
+
+
+<script src="js/bootstrap.min.js"></script>
+
+</div>
 
 </body>
 </html>
