@@ -1,5 +1,14 @@
 /*Personalized Styling for IEEE Academic website*/
 
+body{
+
+    }
+
+h1,h2,h3,h4,a{
+
+   font-family: 'Ropa Sans', sans-serif;
+}
+
 /* Adapting Bootstrap fluid to FullScreen */
 .IEEEsites{
 	background-color: rgb(171,171,171);
@@ -21,24 +30,45 @@
 .content-local{
 }
 
-.footer{
-	background-image: linear-gradient(bottom, rgb(50,51,51) 38%, rgb(41,41,41) 69%, rgb(36,36,36) 85%);
-	background-image: -o-linear-gradient(bottom, rgb(50,51,51) 38%, rgb(41,41,41) 69%, rgb(36,36,36) 85%);
-	background-image: -moz-linear-gradient(bottom, rgb(50,51,51) 38%, rgb(41,41,41) 69%, rgb(36,36,36) 85%);
-	background-image: -webkit-linear-gradient(bottom, rgb(50,51,51) 38%, rgb(41,41,41) 69%, rgb(36,36,36) 85%);
-	background-image: -ms-linear-gradient(bottom, rgb(50,51,51) 38%, rgb(41,41,41) 69%, rgb(36,36,36) 85%);
-	text-align: center;
-	margin-top: 20px;	
+.filtersDiv{
+color:#1c1c1c
 }
 
-.footer h2{
-	color:  rgb(234,197,57);
+footer{
+	background: url(img/backgrounds/footer.jpg) repeat-x #1c1c1c;
+    
+
+}
+
+label{
+font-weight:200;
+    font-size:12pt;
+}
+
+
+.checkbox input[type="checkbox"]{
+font-size: 16pt;
+    margin-top: 9px;
+
+}
+
+.checkbox{
+    margin:0;
+}
+
+.footerDiv{
+	text-align: center;
+	margin-top: 20px;
+    padding-bottom:20px;
+}
+
+.footerDiv h2{
+	color:  #EEE;
 
 }
  
 .footerlink a{
-
-	color:white;
+    text-decoration:none;
 }
 
 /*------------------------*/
@@ -54,6 +84,8 @@
     z-index: 1;
     color:white;
     margin-top: 20px;
+    background: #1c1c1c;
+    width:100%
 }
 
 .jumboLocal{
@@ -64,6 +96,7 @@
     top: 0;
     z-index: 1;
     padding-bottom: 5px;
+    width:100%
 }
 
 
@@ -74,6 +107,7 @@
 	padding-top: 20px;
 	color:white;
     width: 100%;
+    background: #1c1c1c;
 }
 
 
@@ -111,6 +145,7 @@
 	margin-bottom: 6%;
 }
 
+/*
 #globalHeader{
 	background-image: url('../img/backgrounds/global.jpg');
 	-webkit-background-size: cover;
@@ -119,9 +154,10 @@
   	background-size: cover;
   	width: 100%;
 }
+*/
 
 #globalHeader-local{
-	background-image: url('../img/backgrounds/local.jpg');
+	background:#EEE;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;

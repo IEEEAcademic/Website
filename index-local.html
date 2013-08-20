@@ -6,7 +6,12 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/academic.css"> <!-- Personalized Styling -->
 	<link rel="stylesheet" href="css/responsive-video.css" type="text/css"> <!-- Responsive Video -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+    
+	<link rel="stylesheet" href="css/animate.css" type="text/css"> <!-- Animations -->
+    
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ropa+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -44,39 +49,51 @@
 				<div class="navbar" style="margin-top:4%">
 					<a href="#" class="navbar-brand">Procurar</a>
 					<p class="navbar-text"><input id="searchText" type="text" class="form-control" placeholder="Type here the content you want and refine your search using the filters"></p>
+                    <a href="#" class="toggleFilters"> <h3 style="margin-top:12px">Carregar Filtros </h3> </a>
+
+                    <div class="row filtersDiv filters" id="filters" style="display:none;">
+                        <div class="col-12">
+                      
+                        
+                        <div class="col-3">
+                              <h4>Tópico</h4>
+                        <label class="checkbox">
+                          <input type="checkbox" value=""> Matemática
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" value=""> Ciência de Computação
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" value=""> Quimica
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" value=""> Eletrónica
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" value=""> <b>Todos</b>
+                        </label>    
+                        
+                         </div>
+                        
+                        <div class="col-3">
+                              <h4>Features</h4>
+                        <label class="checkbox">
+                          <input type="checkbox" value=""> Texto
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" value=""> Animações
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" value=""> Exercícios
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" value=""> <b>Todos</b>
+                        </label>    
+                        
+                         </div>
+                             </div>
 
 	
-					<!-- Topic Filter -->
-
-					<div class="btn-group">
-						<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-							Tópico <span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu">
-							<li><a href="#">Matemática</a></li>
-							<li><a href="#">Informática</a></li>
-							<li><a href="#">Quimica</a></li>
-							<li><a href="#">Eletrónica</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Todos</a></li>
-						</ul>
-					</div>
-
-					<!-- Features Filter -->
-
-					<div class="btn-group">
-						<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-							Features <span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu">
-							<li><a href="#">Texto</a></li>
-							<li><a href="#">Animações</a></li>
-							<li><a href="#">Exercicios</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Todos</a></li>
-						</ul>
-					</div>
-
 				</div> <!-- navbar -->
 		
 		<div id="highlights-local">
@@ -161,27 +178,39 @@
 			</div> <!-- container body -->
 			
 
-			<div class="container-fluid footer">
+			
+		</body>
+<!-- FOOTER -->
+
+<footer>	
+
+			<div class="container footerDiv">
 
 				<div class="row">
 
-					<div class="col-4" >
+					<div class="col-3" >
 						<h2>Relevant Links</h2>
 						<p class="footerlink"><a href="#">IEEE</a></p>
 						<p class="footerlink"><a href="#">Education</a></p>
 						<p class="footerlink"><a href="#">Some partner</a></p>
 
 					</div>
-					<div class="col-4"><h2>Social Media</h2></div>
-					<div class="col-4"><h2>Press</h2></div>
+                    <div class="col-3"><h2>Initiatives</h2></div>
+					<div class="col-3"><h2>Social Media</h2></div>
+					<div class="col-3"><h2>Press</h2></div>
 
 				</div>
 
 			 </div>
 
 				
-				<script src="js/bootstrap.min.js"></script>
+        
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/academic.js"></script>
+   
+    
 		
+</footer>
 
-		</body>
 		</html>
