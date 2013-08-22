@@ -21,6 +21,15 @@ h1,h2,h3,h4,a{
 
 .container-fluid{
 	padding: 0px;
+    padding-right: 0px !important;
+padding-left: 0px !important;
+}
+
+.modal-header{
+
+min-height: 16.428571429px;
+padding: 15px;
+border-bottom: 1px solid #e5e5e5;
 }
 
 .content{
@@ -70,6 +79,13 @@ font-size: 16pt;
 .footerlink a{
     text-decoration:none;
 }
+.footerlink a:hover{
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
+}
 
 /*------------------------*/
 /* IEEE ACADEMIC HERO UNIT */
@@ -84,6 +100,7 @@ font-size: 16pt;
     z-index: 1;
     color:white;
     margin-top: 20px;
+    margin-bottom:0px;
     background: #1c1c1c;
     width:100%
 }
@@ -135,14 +152,14 @@ font-size: 16pt;
 
 #highlights{
 	text-align: center;
-	margin-top: 6%;
+	margin-top: 3%;
 	color: white;
 
 }
 
 #highlights-local{
 	text-align: center;
-	margin-bottom: 6%;
+	margin-top: 3%;
 }
 
 /*
@@ -241,6 +258,11 @@ padding-left: 0px;
 padding: 0px;
 
 }
+
+.tab-pane{
+
+margin-left:0px;
+margin-right:0px;}
 
 .notesWell{
 background-color: #E7E7E7;
