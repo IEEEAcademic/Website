@@ -1,283 +1,222 @@
 /*Personalized Styling for IEEE Academic website*/
-
-body{
-
-    }
-
-h1,h2,h3,h4,a{
-
-   font-family: 'Ropa Sans', sans-serif;
+ body {
 }
-
+h1, h2, h3, h4, a {
+    font-family:'Ropa Sans', sans-serif;
+}
 /* Adapting Bootstrap fluid to FullScreen */
-.IEEEsites{
-	background-color: rgb(171,171,171);
-	color: black	;
-	text-align: center;
+ .IEEEsites {
+    background-color: rgb(171, 171, 171);
+    color: black;
+    text-align: center;
 }
-.IEEEsites a{
-	color: #5a5a5a;
+.IEEEsites a {
+    color: #5a5a5a;
 }
-
-.container-fluid{
-	padding: 0px;
+.container-fluid {
+    padding: 0px;
     padding-right: 0px !important;
-padding-left: 0px !important;
+    padding-left: 0px !important;
 }
-
-.modal-header{
-
-min-height: 16.428571429px;
-padding: 15px;
-border-bottom: 1px solid #e5e5e5;
+.modal-header {
+    min-height: 16.428571429px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
 }
-
-.content{
-	margin-top: 55%;
+.content {
+    border-radius: 0px;
+    padding-top: 20px;
+    position: relative;
+    top: 0;
+    margin-top: 0%;
+    margin-bottom: 0px;
 }
-
-.content-local{
+.content-local {
 }
-
-.filtersDiv{
-color:#1c1c1c
+.filtersDiv {
+    color:#1c1c1c
 }
-
-footer{
-	background: url(img/backgrounds/footer.jpg) repeat-x #1c1c1c;
-    
-
+footer {
+    background: url(img/backgrounds/footer.jpg) repeat-x #1c1c1c;
 }
-
-label{
-font-weight:200;
+label {
+    font-weight:200;
     font-size:12pt;
 }
-
-
-.checkbox input[type="checkbox"]{
-font-size: 16pt;
+.checkbox input[type="checkbox"] {
+    font-size: 16pt;
     margin-top: 9px;
-
 }
-
-.checkbox{
+.checkbox {
     margin:0;
 }
-
-.footerDiv{
-	text-align: center;
-	margin-top: 20px;
+.footerDiv {
+    text-align: center;
+    margin-top: 20px;
     padding-bottom:20px;
 }
-
-.footerDiv h2{
-	color:  #EEE;
-
+.footerDiv h2 {
+    color: #EEE;
 }
- 
-.footerlink a{
+.footerlink a {
     text-decoration:none;
 }
-.footerlink a:hover{
+.footerlink a:hover {
     text-decoration:none;
 }
-
 a:hover {
     text-decoration:none;
 }
-
 /*------------------------*/
-/* IEEE ACADEMIC HERO UNIT */
-.jumboIndex{
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	padding-top: 20px;
-	position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-    color:white;
-    margin-top: 20px;
-    margin-bottom:0px;
-    background: #1c1c1c;
-    width:100%
-}
 
-.jumboLocal{
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	padding-top: 20px;
+/* IEEE ACADEMIC HERO UNIT */
+ .jumboIndex {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding-top: 20px;
+    background: #1c1c1c;
+    width:100%;
+    height:100%;
+    color: white;
+}
+.jumboLocal {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding-top: 20px;
     top: 0;
     z-index: 1;
     padding-bottom: 5px;
-    width:100%
+    width:100%;
+    background-color:#EEE;
 }
-
-
-.jumboContent{
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	padding-top: 20px;
-	color:white;
+.jumboContent {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding-top: 20px;
+    color:white;
     width: 100%;
     background: #1c1c1c;
 }
-
-
-.navbar-text{
-	margin-top: 6px;
-	margin-bottom: 6px;
+.navbar-text {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 60%;
+}
+.navbar-brand {
+    font-size: 22px;
 }
 
-.navbar-brand{
-	font-size: 22px;
-
+.navbar-local{
+background-color:#DDDDDD;
 }
 
-
-
-.lead{
-	margin-top: 4%;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	border-top: 2px;
-	font-size: 28px;
-
+.lead {
+    margin-top: 4%;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border-top: 2px;
+    font-size: 28px;
+}
+#highlights {
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+}
+#highlights-local {
+    text-align: center;
+    margin-top: 3%;
+}
+.globalHeader {
+    border-radius: 0px;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    color: white;
+    margin-bottom: 0px;
+    width:100%;
 }
 
-#highlights{
-	text-align: center;
-	margin-top: 3%;
-	color: white;
-
+#globalHeader-local {
+    border-radius: 0px;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    color: #EEE;
+    margin-bottom: 0px;
+    width:100%;
 }
-
-#highlights-local{
-	text-align: center;
-	margin-top: 3%;
+#menuLogo {
+    text-align: left;
+    margin-bottom: 30px;
 }
-
-/*
-#globalHeader{
-	background-image: url('../img/backgrounds/global.jpg');
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	width: 100%;
+#navigationMenu {
+    float: right;
+    margin-top: 20px;
 }
-*/
-
-#globalHeader-local{
-	background:#EEE;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	width: 100%;
-}
-
-#menuLogo{
-	text-align: left;
-	margin-bottom: 30px;
-}
-
-#navigationMenu{
-	float: right;
-	margin-top: 20px;
-}
-
 /* Text Hightlights */
-#UniversityCount, #CountryCount, #VideoModulesCount, #LanguagesCount{
-	color:  rgb(234,197,57);
+ #UniversityCount, #CountryCount, #VideoModulesCount, #LanguagesCount {
+    color: rgb(234, 197, 57);
 }
-
 /* Search Bar */
-#searchText{
-	font-size: 24px;
-	height: 40px;
-	width: 900px;	
+ #searchText {
+    font-size: 80%;
+    height: 40px;
+    width: 100%;
 }
-
 /*Yellow Line hack*/
-hr 
-{	
-border:none;	
-border-top:2px rgb(234,197,57) solid;
-height: 2px;
-position: absolute;
+ hr {
+    border:none;
+    border-top:2px rgb(234, 197, 57) solid;
+    height: 2px;
+    position: absolute;
 }
-
-
-.nav-tabs-global > li >  a {
-color: white;
+.nav-tabs-global > li > a {
+    color: white;
 }
-
-.nav-tabs-global > li >  a {
-color: white;
+.nav-tabs-global > li > a {
+    color: white;
 }
-
-.nav-tabs-global > li >  a:hover {
-color: #333333;
+.nav-tabs-global > li > a:hover {
+    color: #333333;
 }
-
-.nav-tabs-local > li >  a {
-color: #333333;
+.nav-tabs-local > li > a {
+    color: #333333;
 }
-
-.hrPortugal{
-	border:none;	
-	border-top:2px rgb(132,181,78) solid;
-	height: 2px;
-	position: absolute;
-
+.hrPortugal {
+    border:none;
+    border-top:2px rgb(132, 181, 78) solid;
+    height: 2px;
+    position: absolute;
 }
-
 div[data-toggle="collapse"] {
     float: left;
 }
-
-.chapter{
-	padding-left: 20px;
-
+.chapter {
+    padding-left: 20px;
 }
-
-.video{
-
-padding-left: 0px;
-
+.video {
+    padding-left: 0px;
 }
-
-.videoWell{
-
-padding: 0px;
-
+.videoWell {
+    padding: 0px;
 }
-
-.tab-pane{
-
-margin-left:0px;
-margin-right:0px;}
-
-.notesWell{
-background-color: #E7E7E7;
-
+.tab-pane {
+    margin-left:0px;
+    margin-right:0px;
 }
-
-.initiativeWell{
-
-margin-top: 20px;
-margin-right: 20px !important;
-padding-top: 0px;
-padding-bottom: 20px;
+.notesWell {
+    background-color: #E7E7E7;
 }
-
-.videoDesc{
-	margin-top: 0px;
-
+.initiativeWell {
+    margin-top: 20px;
+    margin-right: 20px !important;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.videoDesc {
+    margin-top: 0px;
 }

@@ -11,7 +11,7 @@
         <!-- Responsive Video -->
         <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Ropa+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="css/animate.css" type="text/css">
         <!-- Animations -->
     </head>
@@ -29,16 +29,16 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid globalHeader">
             <!-- HERO UNIT - GLOBAL WEBSITE -->
-            <div id="globalHeader" class="jumbotron jumboIndex">
-                <div id="menuLogo" class="row">
-                    <div class="col-4">
+            <div class="jumbotron jumboIndex">
+                <div class="row" id="menuLogo" >
+                    <div class="col-4 ">
                         <a href="index.html">
-                            <img src="img/logos/global.png" width="300">
+                            <img src="img/logos/global.png" class="img-responsive" width="300px">
                         </a>
                     </div>
-                    <div id="navigationMenu" class="col-4">
+                    <div class="col-6" id="navigationMenu" style="padding-left:10%">
                         <ul class="nav nav-tabs nav-tabs-global">
                             <li>
                                 <a href="initiatives.html">Initiatives</a>
@@ -52,87 +52,88 @@
                         </ul>
                     </div>
                 </div>
-                <h1 style="margin-top:6%">ONLINE EDUCATIONAL CONTENTS IN YOUR OWN LANGUAGE</h1>
-                <hr color="yellow" width="60%">
-                <h3 class="lead">
-                    <span id="UniversityCount">20</span> Universities from
-                    <span id="CountryCount">12</span> different countries currently making available
-                    <span id="VideoModulesCount">243</span> video modules in
-                    <span id="LanguagesCount">9</span> different languages</h3>
-                <!-- <p><a class="btn btn-primary btn-large">Super important &raquo;</a></p> -->
-                <div class="navbar animated" style="margin-top:4%">
-                    <a href="#" class="navbar-brand">Search</a>
-                    <p class="navbar-text">
-                        <input id="searchText" type="text" class="form-control" placeholder="Type here the content you want and refine your search using the filters">
-                    </p>
-                    <a href="#" class="toggleFilters">
-                        <h3 style="margin-top:12px">Toggle Filters</h3>
-                    </a>
-                    <div class="row filtersDiv filters" id="filters" style="display:none;">
-                        <div class="col-12">
-                            <div class="col-3">
-                                <h4>Language</h4>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">English</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">Portuguese</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">Greek</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">Turkish</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">
-                                    <b>All</b>
-                                </label>
-                            </div>
-                            <div class="col-3">
-                                <h4>Topic</h4>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">Mathematics</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">Computer Science</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">Chemistry</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">Electronics</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">
-                                    <b>All</b>
-                                </label>
-                            </div>
-                            <div class="col-3">
-                                <h4>Features</h4>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">Text</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">Animations</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">Exercises</label>
-                                <label class="checkbox">
-                                    <input type="checkbox" value="">
-                                    <b>All</b>
-                                </label>
+                <div class="row">
+                    <h1 style="margin-top:1%">ONLINE EDUCATIONAL CONTENTS IN YOUR OWN LANGUAGE</h1>
+                    <hr color="yellow" width="60%">
+                    <h3 class="lead">
+                        <span id="UniversityCount">20 </span>Universities from
+                        <span id="CountryCount">12 </span>different countries currently making available
+                        <span id="VideoModulesCount">243 </span>video modules in
+                        <span id="LanguagesCount">9 </span>different languages</h3>
+                    <!-- <p><a class="btn btn-primary btn-large">Super important &raquo;</a></p> -->
+                    <div class="navbar animated" style="margin-top:2%; margin-bottom:0">
+                        <a href="#" class="navbar-brand">Search</a>
+                        <p class="navbar-text">
+                            <input id="searchText" type="text" class="form-control" placeholder="Type here the content you want and refine your search using the filters">
+                        </p>
+                        <a href="#" class="toggleFilters">
+                            <h3 style="margin-top:12px">Toggle Filters</h3>
+                        </a>
+                        <div class="row filtersDiv filters" id="filters" style="display:none;">
+                            <div class="col-12">
+                                <div class="col-3">
+                                    <h4>Language</h4>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">English</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">Portuguese</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">Greek</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">Turkish</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">
+                                        <b>All</b>
+                                    </label>
+                                </div>
+                                <div class="col-3">
+                                    <h4>Topic</h4>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">Mathematics</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">Computer Science</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">Chemistry</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">Electronics</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">
+                                        <b>All</b>
+                                    </label>
+                                </div>
+                                <div class="col-3">
+                                    <h4>Features</h4>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">Text</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">Animations</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">Exercises</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="">
+                                        <b>All</b>
+                                    </label>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <!-- navbar -->
                 </div>
-                <!-- navbar -->
-                <div id="highlights">
+                <div id="highlights" class="row">
                     <div class="col-4">
-                        <img src="img/buttons/about-white.png" style="width:200px;">
+                        <img src="img/buttons/about-white.png" style="width:200px;margin: 0 auto;" class="visible-md visible-lg">
                         <h2>About the project</h2>
                     </div>
                     <div class="col-4">
-                        <img src="img/buttons/concept-white.png" style="width:200px;">
+                        <img src="img/buttons/concept-white.png" style="width:200px;margin: 0 auto;" class="visible-md visible-lg">
                         <h2>The Concept</h2>
                     </div>
                     <div class="col-4">
-                        <img src="img/buttons/who-white.png" style="width:200px;">
+                        <img src="img/buttons/who-white.png" style="width:200px;margin: 0 auto;" class="visible-md visible-lg">
                         <h2>Who?</h2>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
         <!-- END OF JUMBOTRON - GLOBAL WEBSITE -->
         <!-- INDEX PAGE CONTENT -->
@@ -211,9 +212,15 @@
                 <div class="col-3">
                     <h2>Social Media</h2>
                     </a>
-                    <a href="" style="margin-left:20px;margin-right:20px"><i class="icon-facebook icon-3x" style="color:#EEE"></i></a>
-                    <a href="" style="margin-right:20px"><i class="icon-twitter icon-3x" style="color:#EEE"></i></a>
-                    <a href="" style="margin-right:20px"><i class="icon-youtube icon-3x" style="color:#EEE"></i></a>
+                    <a href="" style="margin-left:20px;margin-right:20px">
+                        <i class="icon-facebook icon-3x" style="color:#EEE"></i>
+                    </a>
+                    <a href="" style="margin-right:20px">
+                        <i class="icon-twitter icon-3x" style="color:#EEE"></i>
+                    </a>
+                    <a href="" style="margin-right:20px">
+                        <i class="icon-youtube icon-3x" style="color:#EEE"></i>
+                    </a>
                 </div>
                 <div class="col-3">
                     <h2>Press</h2>
@@ -227,25 +234,29 @@
                                     <h4 class="modal-title">Contacts</h4>
                                 </div>
                                 <div class="modal-body">
-                                    
-                                    
                                     <h3>How to reach us</h3>
-                                    <p>You can contact us by email to: <a href="mailto:ieeexacademic@gmail.com"><h4>ieeexacademic@gmail.com</h4></a>
-                                    or through social media:
-                                    </p>
-                                    <a href="" style="margin-left:20px;margin-right:20px"><i class="icon-facebook icon-3x"></i></a>
-                                    <a href="" style="margin-right:20px"><i class="icon-twitter icon-3x"></i></a>
-                                  <a href="" style="margin-right:20px"><i class="icon-youtube icon-3x"></i></a>
-                                    
-                                
-                                    
+                                    <p>You can contact us by email to:
+                                        <a href="mailto:ieeexacademic@gmail.com">
+                                            <h4>ieeexacademic@gmail.com</h4>
+                                        </a>or through social media:</p>
+                                    <a href="" style="margin-left:20px;margin-right:20px">
+                                        <i class="icon-facebook icon-3x"></i>
+                                    </a>
+                                    <a href="" style="margin-right:20px">
+                                        <i class="icon-twitter icon-3x"></i>
+                                    </a>
+                                    <a href="" style="margin-right:20px">
+                                        <i class="icon-youtube icon-3x"></i>
+                                    </a>
                                     <form style="margin: 0 auto" action="https://docs.google.com/forms/d/1PEQp6Ji7Cq0dS_kLxMkWRpvTYMwhzMtyywsTmNaOEAs/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
                                         <ol style="padding-left: 0">
                                             <div class="ss-form-question errorbox-good">
                                                 <div dir="ltr" class="ss-item  ss-text">
                                                     <div class="ss-form-entry">
                                                         <label class="ss-q-item-label" for="entry_875289928">
-                                                            <div class="ss-q-title"><h4>Subscribe to receive notifications about the project</h4></div>
+                                                            <div class="ss-q-title">
+                                                                <h4>Subscribe to receive notifications about the project</h4>
+                                                            </div>
                                                             <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                                                         </label>
                                                         <input type="text" placeholder="Email Address" class="form-control" style="width:70%; margin: 0 auto" name="entry.875289928" value="" class="ss-q-short" id="entry_875289928" dir="auto" title="">
@@ -271,8 +282,7 @@
                                             </div>
                                         </ol>
                                     </form>
-                                    
-                                    </div>
+                                </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 </div>
